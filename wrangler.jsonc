@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "laurazap-worker",
+	"upload_source_maps": true,
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "laurazap-db",
+			"database_id": "60b704ce-2d4f-461a-aaf3-736d90908a75"
+		}
+	]
+}
